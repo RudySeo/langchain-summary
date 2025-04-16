@@ -31,5 +31,10 @@ chain = prompt | llm
 
 # 요약 함수
 def summarize_article(article: str) -> str:
-    return chain.invoke({"article" : article})
+  try:
+        result = chain.invoke({"article": article})
+        return result.content
+  except Exception as e:
+        print(f"오류확인: {e}")
+        return "Error "
 
