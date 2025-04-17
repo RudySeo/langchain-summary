@@ -5,3 +5,8 @@ class SummaryRequest(BaseModel):
 
 class SummaryResponse(BaseModel):
     summary: str
+
+class AnalyzeArticleResponse(BaseModel):
+    summary: str
+    sentiment: str
+    category: str
