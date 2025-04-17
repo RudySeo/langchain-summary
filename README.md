@@ -7,7 +7,10 @@
 ## 🧠 기능 설명
 
 - 사용 기술: FastAPI, LangChain, OpenAI GPT, Docker
-- 기사 내용을 POST로 전달하면 요약 결과 반환
+
+- **기사 요약 (Summary)**: 기사의 핵심적인 내용을 3줄로 요약합니다.
+- **감정 분석 (Sentiment Analysis)**: 기사의 감정을 긍정적, 부정적 또는 중립적 평가합니다.
+- **주제 분류 (Category Classification)**: 기사의 주제를 정치, 경제, 사회 등으로 분류합니다.
 
 ---
 
